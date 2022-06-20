@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Audio Player</title>
+</head>
+<body>
+  <main>
+    <div class="player-container">
+      <div class="image-container">
+        <img class="track-image" src="./assets/img/image1.jpg" alt="Track Image">
+      </div>
+      <div class="effect-container">
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+      </div>
+      <div class="info-container">
+        <span class="track-title">Heaven</span>
+        <span class="track-separator">•</span>
+        <span class="track-author">Marsh</span>
+      </div>
+      <div class="time-container">
+        <span class="current-time">0:00</span>
+        <span class="duration">0:00</span>
+      </div>
+      <div class="progress-container">
+          <div class="duration-line"></div>
+      </div>
+      <div class="control-container">
+        <button class="btn">
+          <span>
+            <i class="icon icon-backward"></i>
+          </span>
+        </button>
+        <button class="btn">
+          <span>
+            <i class="icon icon-play play"></i>
+          </span>  
+        </button>
+        <button class="btn">
+          <span>
+            <i class="icon icon-forward"></i>
+          </span>
+        </button>
+      </div>
+      <div class="links">
+        <span class="year">2022</span>
+        <a href="https://github.com/andre-sm" class="github-link">github</a>
+        <a href="https://rs.school/js/"><i class="rss-logo"></i></a>
+      </div>
+      <audio id="audio" src="./assets/mp3/track1.mp3"></audio>
+    </div>
+  </main>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
